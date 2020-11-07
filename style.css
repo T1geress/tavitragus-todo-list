@@ -1,0 +1,36 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #99bdf7;
+}
+
+.stuff {
+  background-color: #49bab4;
+  width: 40%;
+  margin-left: 28%;
+  padding: 1%;
+}
+
+.form {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 1%;
+}
+
+.item {
+  width: 93.5%;
+}
+
+.the-list {
+  background-color: #98e639;
+  width: 97.5%;
+  padding: 1%;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+.remove:hover{
+  text-decoration: line-through;
+}
