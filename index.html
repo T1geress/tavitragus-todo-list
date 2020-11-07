@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>To-do List</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.com/22bec53f-b2e6-4094-afb3-9d9632ce7fda%2Fthumbnails%2F34eefb85-755d-4b47-897e-5343b8257135.image.png?16045300730196"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div class="stuff">
+      <form class="input">
+        <input class="item form" type="text" placeholder="Item" />
+        <input class="submit form" type="submit" value="Add to List" />
+        <input class="clear form" type="submit" value="Clear List" />
+      </form>
+      <div class="the-list">
+        <h2>To Do:</h2>
+        <ul class="container">
+          <div class="listContainer"></div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
